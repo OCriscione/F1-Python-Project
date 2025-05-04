@@ -50,6 +50,4 @@ def mainf1():
     for roundNumber in range(1, totalRounds + 1):
         raceResults(roundNumber)  # Call the 'raceResults' function for each round.
 
-# This block ensures that the 'mainf1' function is only called when the script is run directly (not imported as a module).
-if __name__ == "__main__":
-    mainf1()  # Start the program by calling 'mainf1'.
+mainf1()  # Start the program by calling 'mainf1'.
